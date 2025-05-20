@@ -14,8 +14,8 @@ import Base3 from './components/Base3'
 import Base4 from './components/Base4'
 import Chepizza from './components/Chepizza'
 import Sweetpizza from './components/Sweetpizza'
-import Sweetchepizza from './components/Sweetchepizza'
 import Sweetpizzafinal from './components/Sweetpizzafinal'
+import Sweetchepizza from './components/Sweetchepizza'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 export default function App() {
