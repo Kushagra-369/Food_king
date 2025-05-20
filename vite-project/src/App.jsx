@@ -28,7 +28,7 @@ export default function App() {
         <Routes>
 
         <Route path='/' element={<Base/>}/>
-        <Route path='/base2' element={<Base2/>}/>
+        {/* <Route path='/base2' element={<Base2/>}/>
         <Route path='/base4' element={<Base4/>}/>
         <Route path='/onipizza' element={<Onipizza/>}/>
         <Route path='/onifinal' element={<Onifinal/>}/>
@@ -41,7 +41,7 @@ export default function App() {
         <Route path='/sweetpizzafinal' element={<Sweetpizzafinal/>}/>
         <Route path='/sweetchepizza' element={<Sweetchepizza/>}/>
         <Route path='/onisweetchepizza' element={<Onisweetchepizza/>}/>
-        <Route path='/onisweetfinal' element={<Onisweetfinalpizza/>}/>
+        <Route path='/onisweetfinal' element={<Onisweetfinalpizza/>}/> */}
 
         </Routes>
       </BrowserRouter>
