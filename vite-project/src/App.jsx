@@ -15,7 +15,7 @@ import Base4 from './components/Base4'
 import Chepizza from './components/Chepizza'
 import Sweetpizza from './components/Sweetpizza'
 // import Sweetchepizza from './components/Sweetchepizza'
-// import Sweetpizzafinal from './components/Sweetpizzafinal'
+import Sweetpizzafinal from './components/Sweetpizzafinal'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 export default function App() {
@@ -40,8 +40,8 @@ export default function App() {
         <Route path='/onisweetfinal' element={<Onisweetfinalpizza/>}/>
         <Route path='/chepizza' element={<Chepizza/>}/>
         <Route path='/sweetpizza' element={<Sweetpizza/>}/>
-        {/* 
         <Route path='/sweetpizzafinal' element={<Sweetpizzafinal/>}/>
+        {/* 
         <Route path='/sweetchepizza' element={<Sweetchepizza/>}/>
          */}
 
