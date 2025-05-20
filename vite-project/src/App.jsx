@@ -16,6 +16,7 @@ import Chepizza from './components/Chepizza'
 import Sweetpizza from './components/Sweetpizza'
 import Sweetpizzafinal from './components/Sweetpizzafinal'
 import Sweetchepizza from './components/Sweetchepizza'
+import Burger from './components/Burger'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 export default function App() {
@@ -45,6 +46,9 @@ export default function App() {
 
 
         </Routes>
+
+        <Burger/>
+        
       </BrowserRouter>
 
     </div>
