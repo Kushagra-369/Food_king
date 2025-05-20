@@ -1,0 +1,36 @@
+import React from 'react'
+import image1 from '../assets/images/base.jpg'
+import { href, Link } from 'react-router-dom'
+
+
+export default function Base() {
+
+
+    let data = [
+        { href: '/onipizza', href2: "/base2" }
+    ]
+    return (
+        <div className=' flex justify-center bg-cyan-200'>
+            <div className=' border-2 border-red-600 h-100 w-70'>
+                <h1 className=' text-2xl text-center'>Step1</h1>
+                <img className=' h-60 w-70 py-2' src={image1} alt="" />
+                <h1 className=' text-2xl text-center py-2'>Add onion ?</h1>
+                <div className='py-5 flex p-2 gap-2'>
+                    {
+                        data.map((item, key) => (
+                            <Link to={item.href}><h1 className=' border-2 border-black h-10 w-30 text-2xl items-center text-center'>yes</h1></Link>
+
+                        ))
+                    }
+                    {
+                        data.map((item, key) => (
+                            <Link to={item.href2}><h1 className=' border-2 border-black h-10 w-30 text-2xl items-center text-center'>no</h1></Link>
+
+                        ))
+                    }
+                </div>
+            </div>
+
+        </div>
+    )
+}
