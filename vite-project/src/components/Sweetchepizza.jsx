@@ -7,7 +7,7 @@ export default function Sweetchepizza() {
 
 
     let data = [
-        { href: '', href2: '' }
+        { href: '', href2:'' }
     ]
     return (
         <div className=' flex justify-center bg-cyan-200'>
