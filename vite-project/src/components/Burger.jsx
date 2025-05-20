@@ -16,7 +16,7 @@ export default function Burger() {
                         1000,
                     ]}
                     wrapper="span"
-                    speed={10}
+                    speed={12}
                     style={{ fontSize: '6em', display: 'inline-block' }}
                     repeat={Infinity}
                 />
