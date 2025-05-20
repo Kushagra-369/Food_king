@@ -5,8 +5,8 @@ import Onichepizza from './components/Onichepizza'
 import Onifinal from './components/Onifinal'
 import Onipizza from './components/Onipizza'
 import Onipizza2 from './components/Onipizza2'
-// import Onisweetchepizza from './components/Onisweetchepizza'
-// import Onisweetfinalpizza from './components/Onisweetfinal'
+import Onisweetchepizza from './components/Onisweetchepizza'
+import Onisweetfinalpizza from './components/Onisweetfinal'
 import Onisweetpizza from './components/Onisweetpizza'
 import Base from './components/Base'
 import Base2 from './components/Base2'
@@ -36,13 +36,14 @@ export default function App() {
         <Route path='/base3' element={<Base3/>}/>
         <Route path='/onichepizza' element={<Onichepizza/>}/>
         <Route path='/onifinal' element={<Onifinal/>}/>
+        <Route path='/onisweetchepizza' element={<Onisweetchepizza/>}/>
+        <Route path='/onisweetfinal' element={<Onisweetfinalpizza/>}/>
         {/* 
         <Route path='/chepizza' element={<Chepizza/>}/>
         <Route path='/sweetpizza' element={<Sweetpizza/>}/>
         <Route path='/sweetpizzafinal' element={<Sweetpizzafinal/>}/>
         <Route path='/sweetchepizza' element={<Sweetchepizza/>}/>
-        <Route path='/onisweetchepizza' element={<Onisweetchepizza/>}/>
-        <Route path='/onisweetfinal' element={<Onisweetfinalpizza/>}/> */}
+         */}
 
         </Routes>
       </BrowserRouter>
