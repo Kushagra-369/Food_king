@@ -1,20 +1,20 @@
 import React from 'react'
-import image1 from '../assets/images/base.jpg'
+import image1 from '../assets/images/sweetpizza.jpg'
 import { href, Link } from 'react-router-dom'
 
 
-export default function Base2() {
+export default function Sweetpizza() {
 
 
     let data = [
-        { href: '/sweetpizza', href2: "/base3" }
+        { href: '/sweetchepizza', href2: '/sweetpizzafinal' }
     ]
     return (
         <div className=' flex justify-center bg-cyan-200'>
             <div className=' border-2 border-red-600 h-100 w-70'>
-                <h1 className=' text-2xl text-center'>Step2</h1>
+                <h1 className=' text-2xl text-center'>Step3</h1>
                 <img className=' h-60 w-70 py-2' src={image1} alt="" />
-                <h1 className=' text-2xl text-center py-2'>Add sweetcorn ?</h1>
+                <h1 className=' text-2xl text-center py-2'>Add cheese ?</h1>
                 <div className='py-5 flex p-2 gap-2'>
                     {
                         data.map((item, key) => (
