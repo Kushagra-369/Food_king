@@ -22,7 +22,8 @@ export default function Burger() {
                     ]}
                     wrapper="span"
                     speed={12}
-                    style={{ fontSize: '6em', display: 'inline-block' }}
+                    style={{ fontSize :'4em' , display:'inline-block'}}
+                    md:style={{ fontSize: '6em', display: 'inline-block' }}
                     repeat={Infinity}
                 />
               <div className=' py-10 flex justify-around items-center text-center'>
@@ -42,7 +43,7 @@ export default function Burger() {
                 </div>
 
                 <div>
-                    <div className='py-10 text-4xl'>
+                    <div className='py-10 text-2xl md:text-4xl'>
                         <h1>Make Your Own Burger</h1>
                     </div>
 

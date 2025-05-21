@@ -26,10 +26,11 @@ export default function Pizza() {
                     ]}
                     wrapper="span"
                     speed={10}
-                    style={{ fontSize: '6em', display: 'inline-block' }}
-                    repeat={2}
+                    style={{ fontSize :'4em' , display:'inline-block'}}
+                    md:style={{ fontSize: '6em', display: 'inline-block' }}
+                    repeat={Infinity}
                 />
-                <div className=' py-10 flex justify-around items-center text-center' >
+                <div className=' gap-2 py-10 flex justify-around items-center text-center' >
 
                     {
                         data.map((item,key) => (
@@ -46,7 +47,7 @@ export default function Pizza() {
                 </div>
 
                 <div>
-                    <div className='py-10 text-4xl'>
+                    <div className='py-10 text-2xl md:text-4xl'>
                         <h1>Make Your Own Pizza</h1>
                     </div>
 
