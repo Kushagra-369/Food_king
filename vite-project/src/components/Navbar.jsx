@@ -22,7 +22,7 @@ export default function Navbar() {
     }
     return (
         <div >
-            <div className=' flex justify-center gap-20 items-center py-15 bg-yellow-300 ' style={{ backgroundImage: 'url(https://burgerpizzalover.in/wp-content/uploads/2025/01/Pizza-burger-coldrink.webp)', backgroundRepeat: 'no-repeat', backgroundSize: '300px' }}>
+            <div className=' flex justify-center gap-20 items-center py-15 bg-yellow-300 text-white md:text-black' style={{ backgroundImage: 'url(https://burgerpizzalover.in/wp-content/uploads/2025/01/Pizza-burger-coldrink.webp)', backgroundRepeat: 'no-repeat', backgroundSize: '300px' }}>
 
                 <div className=' text-6xl flex gap-5 items-center '>
                     <h1><FaCrown /></h1>
