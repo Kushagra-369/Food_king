@@ -4,6 +4,7 @@ import { CiInstagram } from "react-icons/ci";
 import { CiYoutube } from "react-icons/ci";
 import { FaFacebook } from "react-icons/fa";
 import { FaCrown } from "react-icons/fa6";
+import { Link, Element } from 'react-scroll';
 
 
 
@@ -21,7 +22,8 @@ export default function About() {
 
     ]
   return (
-    <div className=' bg-black text-white  h-full w-full py-30'>
+     <Element name= "about">
+        <div className=' bg-black text-white  h-full w-full py-30'>
 
         <h1 className=' text-7xl px-23'>Food King</h1>
             
@@ -65,5 +67,6 @@ export default function About() {
 
         
     </div>
+     </Element>
   )
 }

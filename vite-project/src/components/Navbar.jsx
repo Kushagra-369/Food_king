@@ -13,7 +13,7 @@ export default function Navbar() {
         { title1: "Eat", dropdown: ["pizza", "Burger"], title2: ["pizza", "burger"] },
         { title1: "Drink", dropdown: ["Coldrinks", "Juices"], title2: ["coldrinks", "juices"] },
 
-        { title1: "About", dropdown: "" },
+        { title1: "About", dropdown: ["know more"],title2:["about"] },
     ];
 
 
