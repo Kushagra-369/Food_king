@@ -17,6 +17,21 @@ import Sweetpizza from './components/Sweetpizza'
 import Sweetpizzafinal from './components/Sweetpizzafinal'
 import Sweetchepizza from './components/Sweetchepizza'
 import Burger from './components/Burger'
+import Buns from './components/Buns'
+import Buns2 from './components/Buns2'
+import Buns3 from './components/Buns3'
+import Buns4 from './components/Buns4'
+import Onibuns from './components/Onibuns'
+import Tombuns from './components/Tombuns'
+import Tomchebuns from './components/Tomchebuns'
+import Tombunsfinal from './components/Tombunsfinal'
+import Onibunsfinal from './components/Onibunsfinal'
+import Onibuns2 from './components/Onibuns2'
+import Onitombuns from './components/Onitombuns'
+import Onitomchebuns from './components/Onitomchebuns'
+import Onitombunsfinal from './components/Onitombunsfinal'
+import Onichebuns from './components/Onichebuns'
+import Chebuns from './components/Chebuns'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 export default function App() {
@@ -49,6 +64,23 @@ export default function App() {
 
         <Burger/>
         
+        <Routes>
+          <Route path='/' element = {<Buns/>}/>
+          <Route path='buns2' element = {<Buns2/>}/>
+          <Route path='buns3' element = {<Buns3/>}/>
+          <Route path='buns4' element = {<Buns4/>}/>
+          <Route path='onibuns' element = {<Onibuns/>}/>
+          <Route path='chebuns' element = {<Chebuns/>}/>
+          <Route path='tombuns' element = {<Tombuns/>}/>
+          <Route path='tomchebuns' element = {<Tomchebuns/>}/>
+          <Route path='tombunsfinal' element = {<Tombunsfinal/>}/>
+          <Route path='onibunsfinal' element = {<Onibunsfinal/>}/>
+          <Route path='onichebuns' element = {<Onichebuns/>}/>
+          <Route path='onibuns2' element = {<Onibuns2/>}/>
+          <Route path='onitombuns' element = {<Onitombuns/>}/>
+          <Route path='onitombunsfinal' element = {<Onitombunsfinal/>}/>
+          <Route path='onitomchebuns' element = {<Onitomchebuns/>}/>
+        </Routes>
       </BrowserRouter>
 
     </div>

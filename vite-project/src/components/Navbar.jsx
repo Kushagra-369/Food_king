@@ -11,7 +11,7 @@ export default function Navbar() {
     let data = [
         { title1: "Eat", dropdown: ["pizza", "Burger"] },
         { title1: "Drink", dropdown: ["Coldrinks", "Juices"] },
-        { title1: "Method", dropdown: ["Home delivery", "Offline",] },
+       
         { title1: "About", dropdown: "" },
     ];
 
