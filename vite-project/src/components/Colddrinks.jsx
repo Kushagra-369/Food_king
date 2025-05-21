@@ -29,7 +29,7 @@ export default function Coldrinks() {
                     md:style={{ fontSize: '6em', display: 'inline-block' }}
                     repeat={Infinity}
                 />
-              <div className='gap2 py-10 flex justify-around items-center text-center'>
+              <div className='gap-3 py-10 flex justify-around items-center text-center'>
 
                     {
                         data.map((item,key) => (
