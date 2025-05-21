@@ -3,6 +3,7 @@ import { CiLinkedin } from "react-icons/ci";
 import { CiInstagram } from "react-icons/ci";
 import { CiYoutube } from "react-icons/ci";
 import { FaFacebook } from "react-icons/fa";
+import { FaCrown } from "react-icons/fa6";
 
 
 
@@ -58,7 +59,9 @@ export default function About() {
             </div>
 
             
-
+            <div className=' flex justify-center text-8xl text-yellow-300 items-center'>
+                <FaCrown />
+            </div>
 
         
     </div>
