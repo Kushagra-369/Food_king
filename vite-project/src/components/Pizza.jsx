@@ -26,7 +26,7 @@ export default function Pizza() {
                     ]}
                     wrapper="span"
                     speed={10}
-                    style={{ fontSize :'4em' , display:'inline-block'}}
+                    style={{ fontSize :'3em' , display:'inline-block'}}
                     md:style={{ fontSize: '6em', display: 'inline-block' }}
                     repeat={Infinity}
                 />
