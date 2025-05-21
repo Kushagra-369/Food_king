@@ -22,11 +22,11 @@ export default function Burger() {
                     ]}
                     wrapper="span"
                     speed={12}
-                    style={{ fontSize :'4em' , display:'inline-block'}}
+                    style={{ fontSize :'3em' , display:'inline-block'}}
                     md:style={{ fontSize: '6em', display: 'inline-block' }}
                     repeat={Infinity}
                 />
-              <div className=' py-10 flex justify-around items-center text-center'>
+              <div className='gap2 py-10 flex justify-around items-center text-center'>
 
                     {
                         data.map((item,key) => (
