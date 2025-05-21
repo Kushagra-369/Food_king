@@ -17,7 +17,7 @@ export default function Pizza() {
 
     return (
         <Element name = 'pizza'>
-            <div className=' bg-cyan-200'>
+            <div className=' bg-cyan-200' >
             <div className='  py-15 px-10'  >
                 <TypeAnimation
                     sequence={[
@@ -33,11 +33,11 @@ export default function Pizza() {
                     md:style={{ fontSize: '6em', display: 'inline-block' }}
                     repeat={Infinity}
                 />
-                <div className=' gap-2 py-10 flex justify-around items-center text-center' >
+                <div className=' gap-2 py-10 flex justify-around items-center text-center'  >
 
                     {
                         data.map((item,key) => (
-                            <a href=""> <div>
+                            <a href=""> <div className='hover:text-blue-600  hover:scale-105 transition-all duration-300'>
                         <h1 className=' md:px-17 text-2xl' >{item.title1}</h1>
                         <img className=' py-3 h-25 w-25 md:h-50 md:w-50 rounded-4xl' src={item.title3} alt="" />
                         <div className=' border-2 md:h-20 md:w-50 text-center hover:bg-red-700 bg-red-600 text-yellow-400 items-center '>

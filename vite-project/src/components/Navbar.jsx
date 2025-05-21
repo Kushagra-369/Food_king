@@ -38,7 +38,7 @@ export default function Navbar() {
             <div className=' flex justify-center gap-20 items-center py-15 bg-black md:bg-yellow-300 text-white md:text-black' style={{ backgroundImage: 'url(https://burgerpizzalover.in/wp-content/uploads/2025/01/Pizza-burger-coldrink.webp)', backgroundRepeat: 'no-repeat', backgroundSize: '300px' }}>
 
                 <div className=' text-6xl flex gap-5 items-center '>
-                    <h1><FaCrown /></h1>
+                    <h1 ><FaCrown /></h1>
                     <h1>FOOD KING </h1>
                 </div>
 
@@ -46,7 +46,7 @@ export default function Navbar() {
                     {
                         data.map((item, index) => (
                             <div key={index} className=' relative group cursor-pointer'>
-                                <h1 className='text-xl font-semibold'>{item.title1}</h1>
+                                <h1 className='text-xl hover:text-red-600 font-semibold'>{item.title1}</h1>
 
                                 {item.dropdown.length > 0 && (
 
@@ -74,7 +74,7 @@ export default function Navbar() {
                         <ul className=' md:hidden fixed top-0 right-0 h-full w-full bg-gray-800 text-yellow-300 p-10 z-40 shadow-lg transition-all duration-300'>
                             {
                                 data.map((item, index) => (
-                                    <div key={index} className=' relative group cursor-pointer'>
+                                    <div key={index} className=' relative group cursor-pointer hover:text-red-600'>
                                         <h1 className='text-2xl py-2 font-semibold' onClick={() => toggleDropdown(index)}>{item.title1}</h1>
 
                                         {(item.dropdown.length > 0 && activeDropdown === index) && (

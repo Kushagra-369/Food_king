@@ -1,24 +1,24 @@
 import React from 'react'
-import image1 from '../assets/images/fanta.jpg'
-import image2 from '../assets/images/coca-cola.jpg'
-import image3 from '../assets/images/thumbs-up.jpg'
+import image1 from '../assets/images/mangojuice.jpg'
+import image2 from '../assets/images/watermelonjuice.jpg'
+import image3 from '../assets/images/orangejuice.jpg'
 import { Link, Element } from 'react-scroll';
 
 import { TypeAnimation } from 'react-type-animation';
 
-export default function Coldrinks() {
+export default function Juices() {
     let data = [
-        {title1 : "Fanta", title2 :"Order now" , title3 : image1},
-        {title1 : "Coca-Cola ", title2 :"Order now" , title3 : image2},
-        {title1 : "Thumbs-up ", title2 :"Order now" , title3 : image3}
+        {title1 : "Mango", title2 :"Order now" , title3 : image1},
+        {title1 : "Watermelon ", title2 :"Order now" , title3 : image2},
+        {title1 : "Orange ", title2 :"Order now" , title3 : image3}
        ];
     return (
-       <Element name = "coldrinks">
+       <Element name = "juices">
          <div>
             <div className=' bg-cyan-200 py-15 px-10'>
                 <TypeAnimation
                     sequence={[
-                        'COLDRINKS',
+                        'JUICES',
                         1000,
                         'Order now',
                         1000,
