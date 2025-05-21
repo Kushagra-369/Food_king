@@ -79,7 +79,7 @@ export default function Navbar() {
 
                                         {(item.dropdown.length > 0 && activeDropdown === index) && (
 
-                                            <div className=' absolute top-2   w-40 bg-white rounded shadow-lg opacity-0 group-hover:opacity-100 group-hover:translate-y-1 transform transition-all duration-200 z-50 '>
+                                            <div className=' absolute top-2   w-40 bg-white rounded shadow-lg opacity-100 group-hover:opacity-100 group-hover:translate-y-1 transform transition-all duration-200 z-50 '>
                                                 {item.dropdown.map((subitem, subindex) => (
                                                     <Link to = {item.title2[subindex]} smooth={true} duration={600} onClick={cross} >
                                                 <div key={subindex} className='px-4 py-1 text-black hover:bg-yellow-200'>
