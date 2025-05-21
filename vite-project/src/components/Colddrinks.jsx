@@ -34,7 +34,7 @@ export default function Coldrinks() {
                     {
                         data.map((item,key) => (
                             <a href=""> <div>
-                        <h1 className=' md:px-17 text-2xl' >{item.title1}</h1>
+                        <h1 className=' md:px-17 md:text-2xl' >{item.title1}</h1>
                         <img className=' py-3 h-25 w-25 md:h-50 md:w-50 rounded-4xl' src={item.title3} alt="" />
                         <div className=' border-2 md:h-20 md:w-50 text-center bg-red-600 hover:bg-red-700 text-yellow-400 items-center '>
                             <h1 className=' items-center py-5 text-2xl '>{item.title2}</h1>
