@@ -2,6 +2,8 @@ import React from 'react'
 import image1 from '../assets/images/burger1.jpg'
 import image2 from '../assets/images/burger2.jpg'
 import image3 from '../assets/images/burger3.jpg'
+import { Link, Element } from 'react-scroll';
+
 import { TypeAnimation } from 'react-type-animation';
 
 export default function Burger() {
@@ -11,7 +13,8 @@ export default function Burger() {
         {title1 : "Burger 3 ", title2 :"Order now" , title3 : image3}
        ];
     return (
-        <div>
+       <Element name = 'burger'>
+         <div>
             <div className=' bg-cyan-200 py-15 px-10'>
                 <TypeAnimation
                     sequence={[
@@ -50,5 +53,6 @@ export default function Burger() {
                 </div>
             </div>
         </div>
+       </Element>
     )
 }

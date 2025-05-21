@@ -32,6 +32,7 @@ import Onitomchebuns from './components/Onitomchebuns'
 import Onitombunsfinal from './components/Onitombunsfinal'
 import Onichebuns from './components/Onichebuns'
 import Chebuns from './components/Chebuns'
+import Coldrinks from './components/Colddrinks'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 export default function App() {
@@ -81,7 +82,12 @@ export default function App() {
           <Route path='onitombunsfinal' element = {<Onitombunsfinal/>}/>
           <Route path='onitomchebuns' element = {<Onitomchebuns/>}/>
         </Routes>
+
+          <Coldrinks/>
+      
       </BrowserRouter>
+
+      
 
     </div>
   )
