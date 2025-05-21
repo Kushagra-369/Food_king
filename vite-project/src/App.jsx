@@ -34,6 +34,7 @@ import Onichebuns from './components/Onichebuns'
 import Chebuns from './components/Chebuns'
 import Coldrinks from './components/Colddrinks'
 import Juices from './components/Juices'
+import About from './components/About'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 export default function App() {
@@ -86,6 +87,7 @@ export default function App() {
 
           <Coldrinks/>
          <Juices/>
+         <About/>
       </BrowserRouter>
 
       
